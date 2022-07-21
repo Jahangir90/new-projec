@@ -1,0 +1,286 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+
+.fa-solid{
+    color: white;
+    height: 200px;
+    width: 100px;
+    padding: 30px 10px;
+}
+
+body{
+     font-family: 'Gentium Book Plus', serif; 
+    max-width: 980px;
+    margin: 30px auto;
+}
+
+
+
+.Banner-top{
+    background-image: url(./wld-img/Banner\ Image.png);
+    background-color: black;
+    /* border: 5px solid red; */
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 90% 99%;
+    border-radius: 15px;
+}
+.banner-text{
+    color: azure;
+    position: absolute;
+    top: 20%;
+    padding-left: 70px;
+    margin: 20px;
+}
+
+
+
+
+.Banner-h1{
+    width: 350px;
+    height: 50px;
+    font-size: 2vw;
+
+}
+
+.Banner-p{
+    width: 350px;
+    height: 50px;
+
+}
+
+
+
+
+
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    top: 100px;
+
+
+}
+
+
+/* main part starting */
+
+
+.Main-Page{
+    margin: 80px 5px;
+    display: flex; 
+}
+
+
+/* main left site start */
+
+
+.Blog-Btn {
+
+/* 
+    border: 1px solid royalblue; */
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: black;
+
+}
+
+.btn {
+    font-size: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    color:black;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    margin: 10px;
+    background-color:white;
+    padding: 8px 15px;
+    text-decoration: none;
+
+}
+.btn3{
+    
+    text-decoration: none;
+    color: black;
+}
+
+#btn2{
+    background-color: red;
+}
+
+/* main left site end */
+
+
+
+
+
+
+
+.blog-img{ 
+
+   /* display: flex;  */
+   display: grid;
+   grid-template-columns: repeat(3 1fr);
+   
+   gap: 0px;
+
+   
+    padding-right: 0 10px;
+   
+    
+}
+#blog-img{
+    flex-grow: 1;
+}
+
+   
+.p-class{
+    width: 300px;
+    height: 30px;
+    font-weight: 400;
+}
+
+.pic-1{
+    padding: 5px 10px;
+}
+
+.pic-1 .player{
+    width: 100%;
+}
+
+.player{
+    width: 100%;
+    height:auto;
+}
+
+
+.icon-clock{
+    width:15px;
+    height: 15px;
+    padding: 5px;
+}
+
+
+.icon2{
+        width: 15px;
+        height: 15px;
+        padding-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.transfer-btn{
+    border: 1px solid darkslategray;
+    text-decoration: none;
+    margin-left: 20PX;
+    border-radius: 5PX;
+    margin-top: 10px;
+    color:black;
+} 
+
+.icon{
+    display: flex;
+    margin: 20px 0;
+    /* justify-content: space-around */
+
+}
+
+
+
+/* footer */
+
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    border: 1px solid green;
+}
+
+
+.goal-h1{
+    color: white;
+    text-align: center;
+    padding: 70px 0 ;
+}
+
+.hr{
+    width: 650px;
+    border: 1px solid darkslategrey;
+    opacity: 10px;
+}
+
+.footer-nav{
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+nav ul{
+    display: flex;
+    margin-top:-10px;
+    margin: 20px 0;
+    padding: 0 70px;
+}
+
+nav li{
+    color:white;
+      font-size: 15px;
+      list-style: none;
+      padding-left: 55px;
+}
+
+
+nav li a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+
+
+.fa-brands{
+    font-size: 5px;
+}
+
+
+
+
+
+
+
+
+@media screen  and (max-width:576px){
+    .Banner-top{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+    }
+
+    .Main-Page .Blog-Btn{
+        flex-direction: ;
+    }
+}
